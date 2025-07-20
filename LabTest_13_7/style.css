@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f8f8f8;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-username {
+    font-size: 1em;
+    color: #555;
+}
+
+.greeting-section {
+    margin: 40px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+.current-time {
+    font-size: 1.5em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.greeting-message {
+    font-size: 2em;
+    font-weight: bold;
+    color: #222;
+}
+
+.recipe-catalog {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.recipe-catalog h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.recipe-catalog>div {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipe-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.recipe-card h3 {
+    margin: 16px 0 10px;
+}
+
+.recipe-card div {
+    text-align: left;
+}
+
+.recipe-card ul {
+    margin: 8px 0 16px 18px;
+    padding: 0;
+}
+
+.recipe-card button {
+    padding: 8px 18px;
+    border: none;
+    background: #ff9800;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
